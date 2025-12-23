@@ -1,23 +1,21 @@
 "use strict";
 
-/*007 простое общение с пользователем
-// alert('Hello!')
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-/!*const result = confirm('Are you here?')
-console.log(result)*!/
-/!*
-const answers = [];
+const personalMovieDB = {
+  count: numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false,
+};
 
-answers[0] = prompt('Как Ваше имя?', '');
-answers[1] = prompt('Как Ваша фамилия?', '');
-answers[2] = prompt('Сколько Вам лет?', '');
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+  b = +prompt('На сколько оцените его?', ''),
+ c = prompt('Один из последних просмотренных фильмов?', ''),
+  d = +prompt('На сколько оцените его?', '');
 
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-document.write(answers);*!/*/
-
-/*// 008 интерполяция и бектики
-
-const user = 'Иван';
-
-alert(`Привет, ${user}!`);*/
-
+console.log(personalMovieDB);
