@@ -1,4 +1,5 @@
 "use strict";
+
 /*
 
 // 013 if... else... тернарный оператор
@@ -42,3 +43,40 @@
    // console.log(i);
  // }
 */
+
+// урок 016 функиции
+/*let nam = 10;
+
+function showFirstMessage(text) {
+  console.log(text)
+  let nam = 20;
+  console.log(nam)
+
+}
+
+showFirstMessage('Привет мир!')
+console.log(nam)
+
+function calc(a, b) {
+  return (a + b);
+}
+
+console.log(calc(3, 9))
+console.log(calc(8, 9))
+
+const calc2 = function (a, b) {
+  return (a * b);
+};
+
+console.log(calc2(2, 8));
+
+console.log('---------------------')
+
+const calc3 = (a, b) => {
+  console.log('посмотрим сколько будет')
+  return (a * b)
+};
+
+console.log(calc3(5, 10));*/
+
+//  урок 017 методы и свойства строк и чисел.
